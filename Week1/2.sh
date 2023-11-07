@@ -1,1 +1,1 @@
-chmod a+rwx,g-rw,o-rx systemcommands.txt
+chmod a+rwx,g-rw+x,o-rx+w systemcommands.txt
