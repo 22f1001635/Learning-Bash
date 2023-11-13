@@ -9,6 +9,8 @@ If the file twingle is present in the directory then print the number of lines i
 
 5. Print the number of directories in the current working directory. Do not print anything else.
 
+6. The script test will print some text to the standard output, it can be run similar to any other command and does not accept any arguments.Your task is to print the output after running test on the screen and also append the output at the end(starting at new line) of the file log.  File log is located in the current working directory.
+
 P1.(Imp) List(in long format, use ls -l) all the .txt files in the current working directory and redirect the output to a file named textFiles.txt and also print 'found' to the terminal(without quotes, do not print anything else).
 If no .txt file exists redirect the error of your command to the file noFiles.txt and do not print anything.
 
