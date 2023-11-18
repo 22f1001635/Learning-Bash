@@ -1,3 +1,4 @@
+#!/bin/bash
 read a
 b=$[$a % 7]
 if [[ $b -eq 0 ]];
