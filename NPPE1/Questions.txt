@@ -1,0 +1,93 @@
+1. Write a command to move the file (not directory) that has the extension `.jpg` or `.jpeg` in the current working directory to the directory named `photos` present in the current working directory. Create `photos` directory if it is not present in the current directory.
+
+2. Write a script to read an integer from standard input and check for the divisibility of 7 and print `YES <number> <remainder>` if it is divisible else print `NO <number> <remainder>`
+Replace the `<number>` with integer read from stdin and `<remainder>` with remainder when divided by 7.
+
+3. Write a script to read an integer from standard input and check for the divisibility of 7 and print `YES ` if it is divisible else print `NO ` Replace the `` with integer read from stdin and `` with remainder when divided by 7.
+
+4. Write script to move the files from directory `a` to directory `b` if the file in `a` is not present in the directory `b`. Both directory `a` and `b` is present the current working directory. 
+
+5. Extract and print the parent to parent directory of the given file in the variable `MYFILE`. Example: If `MYFILE` had the value `/home/raheem/c-project/main.c` then the parent to parent directory is `/home/raheem`
+
+6. Write a script to read a number from standard input and print the remainder if it is divided by 3. Note that the standard arithmetic modulo operation will not work with large integers. 
+
+Hint: 
+
+1. If the sum of the digits are divisible by 3 then the number itself divisible by 3. Ex: If 2316 is divisible by 3 given that 2+3+1+6=12 => 1+2 = 3 is divisible by 3.
+2. Use `${variable:index:1}` to get the character from the string based on index 
+
+7. Write a script to execute the bash script `run.sh` and print "SUCCESS" if it exits with status 0, otherwise print "FAIL". Note that the file may not have execute permission.
+
+8. Write a script to create a link named `storage` in the current directory to the directory, its path is stored in the variable `DIR_PATH`
+
+9. Write a function `parent-of-parent` to return the parent of parent directory of the file/directory that is passed as an argument.
+
+10. The poem “Sail away” by Rabindranath Tagore is stored in the file named poem.
+
+
+Early in the day it was whispered that we should sail in a boat,
+only thou and I, and never a soul in the world would know of this our
+pilgrimage to no country and to no end.
+
+In that shoreless ocean,
+at thy silently listening smile my songs would swell in melodies,
+free as waves, free from all bondage of words.
+
+Is the time not come yet?
+Are there works still to do?
+Lo, the evening has come down upon the shore
+and in the fading light the seabirds come flying to their nests.
+
+Who knows when the chains will be off,
+and the boat, like the last glimmer of sunset,
+vanish into the night?
+
+Write a command to print the number of non-empty lines that do not contain an article (a, an, the) in it. The command should print a number that is the count of lines, and should not print the lines.
+
+11. Write a script to verify the exact word "System" or "Commands" (case-sensitive) exist in the file `data.txt` . If any of the words are present in the file, print `0` else `1`. Do not print anything else. Note that the words may occur on separate lines as well.
+
+12. Write a script to extract and print the link of all anchor tag present in the file index.html
+
+Assume all `a` tags start and end in the same line. 
+
+Example:  In the text 
+<a href="https://onlinedegree.iitm.ac.in/">IITM BS Degree Programme</a>
+https://onlinedegree.iitm.ac.in/ is the link to the site.
+
+13. We created some directories and change our current working directory using the cd command as given by the sequence of commands below. Write a bash command to make the directory "level2" as your current working directory. i.e. after executing your solution, if we execute the command "pwd" it should return the path of the directory "level2".
+Write your solution as a single line bash command.
+	
+cd /
+mkdir level1
+cd level1
+mkdir level2
+cd level2
+mkdir level3
+cd ..
+cd ..
+
+14. Write a command that runs in a child shell, prints "hello" and exits with the exit code 179.
+
+15. List(in long format, use ls -l) all the .txt files in the current working directory and redirect the output to a file named textFiles.txt and also print 'found' to the terminal(without quotes, do not print anything else).If no .txt file exists redirect the error of your command to the file noFiles.txt and do not print anything.
+Hint: Make use of redirection to file and operators to write solution in one line.
+
+16. The file Pincode_info.csv has information on the pin codes of some places. The output of the command head -5 Pincode_info.csv is given below. First line of this file gives the information about the sequence of fields in each line of file following it.
+
+Circle Name,Region Name,Division Name,Office Name,Pincode,OfficeType,Delivery,District,StateName
+Andhra Pradesh Circle,Kurnool Region,Anantapur Division,A Narayanapuram B.O,515004,BO,Delivery,ANANTHAPUR,Andhra Pradesh
+Andhra Pradesh Circle,Kurnool Region,Anantapur Division,Akuledu B.O,515731,BO,Delivery,ANANTHAPUR,Andhra Pradesh
+Andhra Pradesh Circle,Kurnool Region,Anantapur Division,Alamuru B.O,515002,BO,Delivery,ANANTHAPUR,Andhra Pradesh
+Andhra Pradesh Circle,Kurnool Region,Anantapur Division,Allapuram B.O,515766,BO,Delivery,ANANTHAPUR,Andhra Pradesh
+ Write a command to display the Circle name and Division name separated by space for the given pincode  stored in a shell variable 'pin'. 
+For  e.g. if 'pincode=515002' then your command should display 'Andhra Pradesh Anantapur'
+Note: If your solution has more than one line, add a semicolon after each line.
+
+17. Write a bash script that accepts a few arguments(all numbers) and performs the following functions.
+Prints the string Error if the number of arguments supplied is not equal to 2.
+If the number of arguments is equal to two, print their sum.
+
+18. Write a bash script that accepts an integer as argument and prints the corresponding day of week in capitals as given in the table below.
+Argument	1 or 8	2 or 9	3	4	5	6	7
+Output	SUNDAY	MONDAY	TUESDAY	WEDNESDAY	THURSDAY	FRIDAY	SATURDAY
+If the argument is greater than 9 print ERROR
+Hint: Use case statement.
